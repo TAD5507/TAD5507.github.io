@@ -78,8 +78,6 @@ a {
 .htmlcontainer {
   width: 100%;
   width: 100%;
-  overflow: none;
-  -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
