@@ -1,9 +1,9 @@
 :root {
   --weiss: #fff;
-  --schwarz: #000;
+  --schwarz: #000000;
   --grau: #e3e3e3;
   --hintergrund: #7fffd4;
-  --hintergrund-ausgewählt: #51d1a7;
+  --hintergrund-ausgewählt: rgb(81, 209, 167);
   --elementHintergrund: #fff;
   --header: #fff;
 }
@@ -192,6 +192,7 @@ a {
 
 #mobile-nav-content ul {
   list-style-type: none;
+  z-index: 2;
 }
 
 #mobile-nav-content ul>li {
@@ -311,6 +312,7 @@ a {
 
 #einleitung {
   position: relative;
+  z-index: 1;
 }
 
 #intro-container {
